@@ -1,0 +1,6 @@
+customhost = "YOUR_RDS_ENDPOINT"
+customuser = "admin"
+custompass = "YOUR_PASSWORD"
+customdb = "employee"
+custombucket = "add-employee-bucket14"
+customregion = "eu-north-1"

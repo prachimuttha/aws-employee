@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Employee Registration</title>
+</head>
+<body style="font-family: Arial, sans-serif; margin: 40px;">
+    <h2>Employee Database</h2>
+    <form action="/addemp" method="POST" enctype="multipart/form-data">
+        Employee ID:<br>
+        <input type="text" name="emp_id" required><br><br>
+
+        First Name:<br>
+        <input type="text" name="first_name" required><br><br>
+
+        Last Name:<br>
+        <input type="text" name="last_name" required><br><br>
+
+        Primary Skill:<br>
+        <input type="text" name="primary_skill" required><br><br>
+
+        Location:<br>
+        <input type="text" name="location" required><br><br>
+
+        Image:<br>
+        <input type="file" name="emp_image_file" required><br><br>
+
+        <input type="submit" value="Update Database">
+    </form>
+</body>
+</html>
